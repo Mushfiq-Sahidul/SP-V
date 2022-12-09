@@ -1,19 +1,20 @@
-body{
+body {
     background-color: #f2f4f8;
     margin: 0;
 }
 
-.promo{
+.promo {
     background-color: rgb(0, 0, 0);
     font: italic small-caps bold 15px/150% arial;
     height: 25px;
     text-align-last: center;
 }
-.promo2{
+
+.promo2 {
     color: rgb(255, 255, 255);
 }
 
-.button{
+.button {
     background-color: white;
     border-color: black;
     border-width: 2px;
@@ -23,35 +24,53 @@ body{
     cursor: pointer;
     margin-left: 80 px;
 }
-.button:hover{
+
+.button:hover {
     background-color: gray;
-    
+
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nivoSlider{
-	width:900px;
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-left: 15px;
 }
-.theme-dark.slider-wrapper{
-	background:none
+
+.logo a {
+    text-decoration: none;
+    color: black;
 }
-.theme-dark .nivoSlider{
-    width:100%;
-    }
+
+.nivoSlider {
+    width: 900px;
+}
+
+.theme-dark.slider-wrapper {
+    background: none
+}
+
+.theme-dark .nivoSlider {
+    width: 100%;
+}
 
 .featured-header {
     text-align: center;
 }
+
 h2 {
     font-size: 18px;
     line-height: 20px;
     margin-bottom: 2px;
-    
+
 }
+
 h2 {
     display: block;
     font-size: 1.5em;
@@ -61,16 +80,18 @@ h2 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-.featured-items{
-    
+
+.featured-items {
+
     display: flex;
     flex-wrap: wrap;
     margin: 0 -5px;
     justify-content: center;
-    
+
 }
+
 .cat-item {
-    
+
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     padding: 0.5px;
     margin-bottom: 20px;
@@ -80,25 +101,26 @@ h2 {
     margin: 6px;
     padding: 10px;
     border-radius: 15px;
-    
+
 }
 
 
 .featured-text {
     text-align: center;
     margin-bottom: 25px;
-    
-    
+
+
 }
 
 .products-header {
     text-align: center;
 }
+
 .products-text {
     text-align: center;
     margin-bottom: 25px;
-    
-    
+
+
 }
 
 
@@ -122,6 +144,7 @@ input {
     border-top: none;
     border-radius: 5px;
 }
+
 .login form {
     display: flex;
     justify-content: center;
@@ -131,44 +154,56 @@ input {
     margin-top: 15px;
 }
 
-.main-footer{
+.main-footer {
     padding: 15px 0;
     display: flex;
     justify-content: space-around;
     color: black;
     background: #e4e4e4;
     border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    
+
+    
 }
 
 
-.products-items{
+.products-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 10px 0;
 }
 
-.list-item{
+.list-item {
     background: white;
     width: calc(100% / 7 - 25px);
-     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     padding: 0.5px;
     margin-bottom: 20px;
     text-align: center;
-    
     margin: 6px;
     padding: 10px;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    /* align-self: center; */
+    justify-content: space-between;
+    align-items: center;
 }
 
-.list-item img{
+.list-item img {
     max-width: 100%;
 }
-.list-item a{
+
+.list-item a {
     text-decoration: none;
 }
-.list-item p.produc-title{
-    font-size: 20px;
+
+.list-item p.produc-title {
+    font-size: 15px;
     text-align: center;
     /* font-weight: bold; */
     text-decoration: none;
@@ -177,28 +212,46 @@ input {
     padding-top: 10px;
     margin-bottom: 10px;
 
-   
+
 }
 
-.price-tag{
+.price-tag {
     display: block;
     color: orangered;
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
 }
-.copyright-info{
+
+.copyright-info {
     text-align: center;
 }
+
 span {
-    color: rgb(121, 53, 53);
+    color: #4a4a4a;
 }
+
 .logo {
     font-size: 23pt;
-    font-style: Rosmatika;
+    font-family: 'Lobster', cursive;
     padding-left: 1%;
+    color: black;
+    margin: 15px 0;
 }
-.navbar_m{
+
+.navbar_m {
     background-color: #e4e4e4;
     padding-right: 1%;
+}
+
+.cart_name {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 16pt;
+    /* width: 100%; */
+
+}
+.h4{
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
